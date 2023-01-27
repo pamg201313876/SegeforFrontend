@@ -1,0 +1,42 @@
+type CronogramaConvert = {
+    delimitacionUnidadManejo: boolean[],
+	delimitacionAreaProduccionYProteccion: boolean[],
+	tomaInformacionCampoYCenso: boolean[],
+	marcacion: boolean[],
+	procesamientoInformacionCampo: boolean[],
+	elaboracionPlanManejo: boolean[],
+	retiroYDisposicionDeDesechos: boolean[],
+	patrullajes: boolean[],
+	identificacionYMapeoAreasCriticas: boolean[],
+	construccionDeBrechas: boolean[],
+	manejoCombustible: boolean[],
+	identificacionPuntosIncendios: boolean[],
+	patrullajesIncendios: boolean[],
+	capacitacionIncendios: boolean[],
+	adquisicionEquipoIncendios: boolean[],
+	controlIncendios: boolean[],
+	monitoreoIncendios: boolean[],
+	medidasPrevencionPlagas: boolean[],
+	medidasControlPlagas: boolean[],
+	monitoreoPlagas: boolean[],
+	mantenimientoLinderos: boolean[],
+	construccionCaminos: boolean[],
+	construccionAcopio: boolean[],
+	talaDirigida: boolean[],
+	arrastreYTransporte: boolean[],
+	presentacionTrimestral: boolean[],
+	retiroDesechos: boolean[],
+	retiroResiduos: boolean[],
+	cierreCaminosSecundarios: boolean[],
+	tratamientoSilviculturales: boolean[],
+	actividadesRepoblacion: boolean[],
+	retiroDesechos2: boolean[],
+	remocion: boolean[],
+	plantacion: boolean[],
+	resiembra: boolean[],
+	informeFinal: boolean[]
+	observaciones: string
+}
+
+
+export default CronogramaConvert

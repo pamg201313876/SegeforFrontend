@@ -1,0 +1,27 @@
+.content {
+	flex: 1;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.header{
+	padding-bottom: 10px;
+}
+
+.table {
+	display: flex;
+	flex-flow: column;
+	flex: 1 1 auto;
+}
+
+.footer {
+	margin-top: 10px;
+	flex: 0 1 40px;
+	display: flex;
+}
+
+.pagination {
+	width: 100%;
+}
+

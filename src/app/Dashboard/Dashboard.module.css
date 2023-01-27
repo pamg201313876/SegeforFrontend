@@ -1,0 +1,18 @@
+.body {  
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+}
+
+.content {
+  flex-grow : 1;
+  overflow: auto;
+}
+

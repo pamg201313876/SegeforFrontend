@@ -1,0 +1,8 @@
+.table{
+	overflow: auto;
+}
+
+.selectableRow{
+ cursor: pointer;
+}
+
